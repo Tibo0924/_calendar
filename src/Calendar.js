@@ -68,7 +68,6 @@ const WeekDaysWrapper = styled.div`
 
 const DaysWrapper = styled.div`
   display: flex;
-
   width: 100%;
   flex-wrap: wrap;
 `;
@@ -99,11 +98,6 @@ export function Calendar() {
   function getLastDayOfMonth(year, month) {
     return new Date(year, month + 1, 0).getDate();
   }
-  console.log(
-    "==============================================",
-    startDay,
-    "STARTDAY"
-  );
   function getStartDayOfMonth() {
     // will return an integer representing starting day of the week + 1
     return new Date(date.getFullYear(), date.getMonth(), 1).getDay();
