@@ -1,0 +1,13 @@
+.App {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.weekday {
+  color: black;
+  font-size: 17px;
+  padding: 5% 5%;
+  background: tomato;
+  border: 1px solid white;
+}
